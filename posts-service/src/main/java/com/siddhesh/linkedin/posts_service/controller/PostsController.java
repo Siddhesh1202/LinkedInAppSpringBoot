@@ -1,8 +1,8 @@
 package com.siddhesh.linkedin.posts_service.controller;
 
+import com.siddhesh.linkedin.posts_service.auth.UserContextHolder;
 import com.siddhesh.linkedin.posts_service.dto.PostCreateRequestDto;
 import com.siddhesh.linkedin.posts_service.dto.PostDto;
-import com.siddhesh.linkedin.posts_service.entity.Post;
 import com.siddhesh.linkedin.posts_service.service.PostsService;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
