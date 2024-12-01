@@ -12,6 +12,7 @@
         <module name="connection-service" />
         <module name="user-service" />
         <module name="discovery-server" />
+        <module name="notification-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +25,7 @@
       <module name="api-gateway (1) (com.siddhesh.ecommerce)" options="-parameters" />
       <module name="connection-service" options="-parameters" />
       <module name="discovery-server" options="-parameters" />
+      <module name="notification-service" options="-parameters" />
       <module name="posts-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
